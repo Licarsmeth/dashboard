@@ -43,15 +43,14 @@ header{
 .first{
     margin-bottom: 4rem;
 }
-.bell-ring, .profile-small{
+.bell-ring, .profile-small, .user-name{
     justify-self: center;
     align-self: center;
 }
 
 .user-name{
     font-weight: bold;
-    font-size: 1.2rem;
-    align-self: center;
+    font-size: 1.4rem;
 }
 
 .text{
@@ -135,9 +134,9 @@ main{
     gap: 1rem;
 }
 
-.project ::first-line{
+.project ::first-line, .individualAnnouncements::first-line{
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .trending article div{
@@ -146,9 +145,18 @@ main{
     font-weight: 500;
     gap: 1rem;
     margin-bottom: 1rem;
+    padding: 0.5rem 0;
 }
 
+.announcement article{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    font-size: 1.1rem;
+}
 
-
-
+.c1, .c2{
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+}
 
