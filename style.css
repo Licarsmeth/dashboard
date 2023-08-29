@@ -88,9 +88,9 @@ li{
 
 main{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 70% 30%;
     background-color: #efeff5;
-    padding: 2rem;
+    padding: 3rem;
     gap: 2rem;
 }
 
@@ -109,3 +109,46 @@ main{
     padding: 2rem;
     border-radius: 1rem;
 }
+
+.project-container article{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 48%));
+    gap: 1rem;
+}
+
+.project{
+    background-color: white;
+    height: auto;
+    font-size: 1.1rem;
+    border-radius: 0.7rem;
+    padding: 1.5rem;
+    border-left: 10px solid orange;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.project>:nth-child(2){
+    margin: 1rem;
+    align-self: flex-end;
+    display: flex;
+    gap: 1rem;
+}
+
+.project ::first-line{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.trending article div{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
