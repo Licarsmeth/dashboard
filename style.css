@@ -59,7 +59,7 @@ header{
 }
 
 .searchbar{
-    background-color: #efeff5;
+    background-color: #e0e0e6;
     border-radius: 1em;
     width: 50vw;
     border: none;
@@ -75,6 +75,7 @@ header{
     background-color: #15acf1;
     align-self: center;
     justify-self: center;
+    font-size: 1.1rem;
 }
 
 nav{
